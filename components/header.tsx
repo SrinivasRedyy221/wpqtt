@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="w-screen h-40 dark:bg-blue-200">
                 <div className="text-black-300 text-center font-serif font-extrabold">
-                   Srinivas Redd
+                   Srinivas Reddy
  
                 </div>
                 <div>
