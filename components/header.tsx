@@ -23,7 +23,7 @@ const Header = () => {
             </div>
             <div className="w-screen h-50 dark:bg-blue-200 bg-cover bg-center" style={{ backgroundImage: "url('/srinivas123.jpeg')"}}>
                 <Navbar/>
-                <div className="">
+                <div className=" text-center font-serif font-extrabold">
                    Srinivas Reddy
                 </div>
                 <div>
