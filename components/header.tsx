@@ -24,7 +24,7 @@ const Header = () => {
             <div className="w-screen h-50 dark:bg-blue-200 bg-cover bg-center" style={{ backgroundImage: "url('/srinivas123.jpeg')"}}>
                 <Navbar/>
                 <div className=" text-center font-serif font-extrabold">
-                   Srinivas Redd
+                   Srinivas Reddy
                 </div>
                 <div>
                     <ThemeIcon/>
