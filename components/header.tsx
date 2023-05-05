@@ -1,7 +1,7 @@
 import Slidebar from "./Slidebar"
 import {FaMoon,FaSun} from "react-icons/fa"  
 import useDarkmode from "@/hooks/useDarkmode"
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 const ThemeIcon = () => {
     const [darkTheme, setDarkTheme] = useDarkmode();
     const handleMode = () => setDarkTheme(!darkTheme);
@@ -25,8 +25,10 @@ const Header = () => {
                 <Navbar/>
                 <div className=" text-center font-serif font-extrabold">
                    Srinivas Reddy
+                   <h1 className="text-4xl font-bold border-b-4">Welcome to My Website</h1>
+
                 </div>
-                <div>
+                <div className="absolute bottom-5 left-2">
                     <ThemeIcon/>
                 </div>
             </div>
