@@ -24,7 +24,7 @@ const Header = () => {
             <div className="w-screen dark:bg-primary bg-cover object-cover object-center" style={{ backgroundImage: "url('/')"}}>
                 <Navbar/>
                 <div className=" text-center font-serif font-extrabold">
-                   Sriniva Reddy
+                   Srinivas Reddy
                    <h1 className="text-4xl font-bold">Welcome to My Website</h1>
 
                 </div>
