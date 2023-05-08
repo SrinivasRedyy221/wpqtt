@@ -21,11 +21,11 @@ const Header = () => {
             <div>
               <Slidebar/>
             </div>
-            <div className="w-screen h-50 dark:bg-blue-200 bg-cover bg-center" style={{ backgroundImage: "url('/srinivas123.jpeg')"}}>
+            <div className="w-screen dark:bg-primary bg-cover object-cover object-center" style={{ backgroundImage: "url('/')"}}>
                 <Navbar/>
                 <div className=" text-center font-serif font-extrabold">
-                   Srinivas Reddy
-                   <h1 className="text-4xl font-bold border-b-4">Welcome to My Website</h1>
+                   Srinias Reddy
+                   <h1 className="text-4xl font-bold">Welcome to My Website</h1>
 
                 </div>
                 <div className="absolute bottom-5 left-2">
