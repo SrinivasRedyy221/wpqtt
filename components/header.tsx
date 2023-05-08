@@ -25,8 +25,7 @@ const Header = () => {
                 <Navbar/>
                 <div className=" text-center font-serif font-extrabold">
                    Srinivas Reddy
-                   <h1 className="text-4xl font-bold">Welcome to My Website</h1>
-
+                   <h1 className="text-4xl font-bold">Hello there!!Welcome to My Website</h1>
                 </div>
                 <div className="absolute bottom-5 left-2">
                     <ThemeIcon/>
