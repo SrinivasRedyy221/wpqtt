@@ -1,7 +1,6 @@
 import Slidebar from "./Slidebar"
 import {FaMoon,FaSun} from "react-icons/fa"  
 import useDarkmode from "@/hooks/useDarkmode"
-import Navbar from "./Navbar";
 const ThemeIcon = () => {
     const [darkTheme, setDarkTheme] = useDarkmode();
     const handleMode = () => setDarkTheme(!darkTheme);
@@ -21,8 +20,7 @@ const Header = () => {
             <div>
               <Slidebar/>
             </div>
-            <div className="w-screen dark:bg-primary bg-cover object-cover object-center" style={{ backgroundImage: "url('/')"}}>
-                <Navbar/>
+            <div className="w-screen dark:bg-primary bg-cover object-cover object-center"> 
                 <div className=" text-center font-serif font-extrabold">
                    Srinivas Reddy
                    <h1 className="text-4xl font-bold">Hello there!!Welcome to My Website</h1>
