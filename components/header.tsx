@@ -1,12 +1,11 @@
-import React from 'react'
-import '@/styles/globals.css'
-import Navbar from '@/components/Navbar'
+import React from "react";
+import "@/styles/globals.css";
 
 const Header = () => {
-    return (
-        <div>
-            <Navbar />
-        </div>
-    )
-}
-export default Header
+  return (
+    <header>
+      <h1>Header</h1>
+    </header>
+  );
+};
+export default Header;
