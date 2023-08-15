@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="flex flex-row">
             <div>
             </div>
-            <div className="w-screen bg-black object-cover object-center"> 
+            <div className="w-screen object-cover object-center"> 
                 <div className=" text-center font-serif font-extrabold">
                    Srinivas Reddy
                    <h1 className="text-4xl font-bold">Hello there!!Welcome to Our Website!</h1>
